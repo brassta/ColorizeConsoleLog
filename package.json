@@ -1,13 +1,13 @@
 {
-	"name": "unicorn-fun",
-	"version": "0.0.0",
-	"description": "My awesome module",
+	"name": "ColorizeConsoleLog",
+	"version": "0.1.0",
+	"description": "Colorize Console Log Module",
 	"license": "MIT",
-	"repository": "YOUR-GITHUB-USERNAME/unicorn-fun",
+	"repository": "brassta/ColorizeConsoleLog",
 	"author": {
-		"name": "YOUR NAME",
-		"email": "YOUR EMAIL",
-		"url": "YOUR WEBSITE"
+		"name": "Branko Stevanovic",
+		"email": "branko@agenzzia.com",
+		"url": "https://agenzzia.com"
 	},
 	"type": "module",
 	"exports": "./index.js",
@@ -15,18 +15,18 @@
 		"node": ">=12"
 	},
 	"scripts": {
-		"test": "xo && ava"
+		"test": "ava"
 	},
 	"files": [
 		"index.js"
 	],
 	"keywords": [
-		"unicorn",
-		"fun"
+		"colorize",
+		"console",
+		"console.log"
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"ava": "^3.15.0",
-		"xo": "^0.37.0"
+		"ava": "^3.15.0"
 	}
 }
