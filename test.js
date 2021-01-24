@@ -1,17 +1,6 @@
 import test from 'ava';
-import unicornFun from './index.js';
 import {ConsoleGray, ConsoleGrayJS, ConsoleOrange, ConsoleOrangeJS} from './lib/colorize-console-log.js';
 
-test('main', t => {
-	t.throws(() => {
-		unicornFun(123);
-	}, {
-		instanceOf: TypeError,
-		message: 'Expected a string, got number'
-	});
-
-	t.is(unicornFun('unicorns'), 'unicorns & rainbows');
-});
 
 test('cgray-basic', ((test)=>{
   console.log(ConsoleGray('vidimo se console.log.gray'));
