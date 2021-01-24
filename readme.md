@@ -6,19 +6,19 @@ This lib is intended to be used in IntelliJ like editors, mostly WebStorm & PHPS
 
 ## Getting started
 
-Of course you should install this library into your project so first step should be as usual:
+Of course, you should install this library into your project so the first step should be as usual:
 
 ```
 npm install colorize-console-log
 ```
 
-of if you like it:
+or if you like it:
 ```
 npm i colorize-console-log
 ```
 ###Usage
 
-Import what you need/like from lib. All of them is listed below:
+Import all that you need/like from lib. All of them is listed below:
 ```
 import { ConsoleOrange, ConsoleOrangeJS, ConsoleGray, ConsoleGrayJS } from 'colorize-console-log'
 ```
@@ -30,16 +30,16 @@ var1, var2, var3 are optional, use as you need. Or:
 ```javascript
 Console.log(...ConsoleOrangeJS('message of course', varToBeShownAsJsonString))
 ```
-now we need this (required) "varToBeShown..." variable. So library's method calls with JS on very end of name produce JSON.stringify output to console. You gonna know when you need them. Simple as that.
+now we need this (required) "varToBeShown..." variable. So library's method calls with JS on the very end of the name produce JSON.stringify output to console. You gonna know when you need them. Simple as that.
 ####Problem
-Not so funny, isn't it? Pay attention to spread operator in front of function call, it is mandatory in order to get colorized console output actually. And yes, that is boring. I know, I know... Solution, at least in IntellyJ based editors will be:
+Not so funny, isn't it? Pay attention to the spread operator in front of the function call, it is mandatory in order to get colorized console output actually. And yes, that is boring. I know, I know... The solution, at least in IntelliJ based editors should be:
 
-- open settings/preferences in your editor
+- please open Settings/Preferences in your editor
 - search for Live Templates
-- chose Javascript templates
-- create template for any of listed methods
-- give them some abbrevation, you like
-- paste next code in Template text 
+- choose JavaScript templates
+- create a template for any of the listed methods
+- give them some abbreviation, as you like
+- paste next code in the Template text field
 ```javascript
 console.log(...ConsoleOrange('$MESSAGE$', $VALUE$));$END$
 ```
@@ -56,11 +56,13 @@ or finaly
 console.log(...ConsoleGray('$MESSAGE$', $VALUE$));$END$
 ```
 
-try to memoize your abbrevations and use them with fun.
-In developer tools your brand new orange console.log masterpiece should be look as:
+try to memorize your abbreviations and use them with joy.
+In the Developer tools your brand new orange console.log masterpiece should look as:
 
 ![Screenshot](orange.jpg)
 
-Be well. Thanks
+Nice one, isn't it?
+
+Stay well. Thanks
 
 
