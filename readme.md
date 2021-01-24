@@ -57,49 +57,10 @@ console.log(...ConsoleGray('$MESSAGE$', $VALUE$));$END$
 ```
 
 try to memoize your abbrevations and use them with fun.
-In developer tools your brand new orange console.log masterpiece should be look as
+In developer tools your brand new orange console.log masterpiece should be look as:
 
-<p><img src="https://raw.githubusercontent.com/brassta/colorize-console-log/HEAD/lib/img/data.jpg" alt ="final image"/>neki paragraph</p>
+![Screenshot](orange.jpg)
+
+Be well. Thanks
 
 
-Thanks
-
-# unicorn-fun
-
-> My awesome module
-
-## Install
-
-```
-$ npm install unicorn-fun
-```
-
-## Usage
-
-```js
-import unicornFun from 'unicorn-fun';
-
-unicornFun('unicorns');
-//=> 'unicorns & rainbows'
-```
-
-## API
-
-### unicornFun(input, options?)
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
