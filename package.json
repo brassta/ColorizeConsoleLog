@@ -1,6 +1,6 @@
 {
 	"name": "colorize-console-log",
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"description": "Colorize Console Log Module",
 	"license": "MIT",
 	"repository": "brassta/ColorizeConsoleLog",
