@@ -19,7 +19,7 @@ export function ConsoleOrangeDS(message, value1 = null, value2 = null, value3 = 
 export function ConsoleOrangeJS(message, value) {
   return [
     `%c••• ${message}:%c`,
-    'background:#ff6600; color: white; font-weight:bold; padding:2px 10px 2px 4px;',
+    'background:#ff6600; color: white; font-weight:bold; padding:2px 10px 2px 4px; border-left:15px solid #00FF33;',
     'background:transparent; color:transparent; width:0; overflow:hidden',
     JSON.stringify(value)
   ];
@@ -28,7 +28,7 @@ export function ConsoleOrangeJS(message, value) {
 export function ConsoleOrangeJSDS(message, value) {
   return [
     `%c••• ${message}:%c`,
-    'background:#ff6600; color: #1E2952; font-weight:bold; padding:2px 10px 2px 4px;',
+    'background:#ff6600; color: #1E2952; font-weight:bold; padding:2px 10px 2px 4px; border-left:15px solid #00FF33;',
     'background:transparent; color:transparent; width:0; overflow:hidden',
     JSON.stringify(value)
   ];
